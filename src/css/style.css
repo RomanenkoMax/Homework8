@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.section-1 {
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    left: 0;
+    top: 0;
+}
+.content-1 {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    color:  #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sertiz {
+    display: inline-block;
+    margin-top: 500px;
+    margin-left: 80px;
+}
+
+.text-1 {
+    font-family: Lato, sans-serif;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.creative {
+    width: 830px;
+    height: 130px;
+    border: 1px solid #ffffff;
+    background-color:  rgba(0, 0, 0, 0.3);
+    margin-top: 28px;
+    margin-left: 80px;
+}
+.creative * {
+    display: inline-block;
+    text-align: center;
+    line-height: 130px;
+    font-size: 54px;
+}
+.create-1 {
+    width: 150px;
+    color: #f1ad1d;
+    text-align: center;
+    background-color: #fff;
+}
+.create-2 {
+    margin-left: 15px;
+}
+
+
+.content-2 {
+    width: 100%;
+    text-align: center;
+    /*height: 100%;*/
+    /*background-color: rgba(0.25, 0.35, 0.24, 0.3);*/
+}
+
+.content-3 {
+    width: 100%;
+    text-align: center;
+    /*height: 100%;*/
+    /*background-color: rgba(0.25, 0.35, 0.24, 0.3);*/
+}
+.content-4 {
+    width: 100%;
+    text-align: center;
+}
+.link-to-ideas {
+    font-family: OpenSans, sans-serif;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 120px;
+    display: inline-block;
+}
+.link-to-ideas span {
+    color: #f1ad1d;
+}
+.link-to-ideas span a {
+    text-decoration: none;
+    color: #f1ad1d;
+}
+.logos {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    /*justify-content: space-around;*/
+}
+
+.logos .image-1 {
+    margin-left: 170px;
+    width: 205px;
+    height: 30px;
+}
+.logos .image-2 {
+    width: 135px;
+    height: 50px;
+}
+.logos .image-3 {
+    width: 170px;
+    height: 42px;
+}
+.logos .image-4 {
+    width: 140px;
+    height: 50px;
+    margin-right: 170px;
+}
+
+.paragraph {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.inner-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    color:  #333333;
+    font-weight: 700;
+    line-height: 18px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    display: block;
+    margin-top: 130px;
+}
+.inner-text-small {
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    color:  #4d4943;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 35px;
+}
+.inner-text-small::after {
+    content: '';
+    border-top: 3px solid #f1ad1d;
+    width: 60px;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+}
+
+.inner-text-small-2 {
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    color:  #4d4943;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 35px;
+}
+.section-2 {
+    background-image: url("../img/bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+}
+
+.ideas {
+    font-family: Montserrat, sans-serif;
+    color:  #ffffff;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    margin-top: 150px;
+    position: relative;
+}
+.ideas::after {
+    content: '';
+    border-top: 3px solid #f1ad1d;
+    width: 60px;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, -50%);
+}
+.ideas span {
+    color: #f1ad1d;
+}
+.section-3 {
+    background-image: url("../img/bg3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 475px;
+}
+.section-4 {
+    background-image: url("../img/bg4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 485px;
+}
